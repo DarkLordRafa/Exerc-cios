@@ -41,7 +41,7 @@ elif 7 > anulados > 1:
 elif anulados == 7:
 	print('Nenhuma pessoa forneceu o ano de nascimento.')
 
-'''Se não quiser usar o pass, basta criar €uma condição aninhada, o método tradicional.
+'''Se não quiser usar o pass, basta criar uma condição aninhada, o método tradicional.
 A variável *anulados*  receber ela mesma é opcional nesse caso:
 
 elif informados == 0:
