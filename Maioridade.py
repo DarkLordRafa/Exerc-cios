@@ -26,7 +26,7 @@ if informados == 1 and pessoas_maioridade == 1:
 elif informados == 1 and pessoas_maioridade == 0:
 	print('Somente uma pessoa informou o ano de nascimento, e essa pessoa ainda não atingiu a maioridade.')
 elif informados > 1 and pessoas_maioridade == 1:
-	print('f{informados} pessoas informaram o ano de nascimento, e apenas uma delas atingiu a maioridade.')
+	print(f'{informados} pessoas informaram o ano de nascimento, e apenas uma delas atingiu a maioridade.')
 elif informados > 1 and pessoas_maioridade == 0:
 	print(f'{informados} pessoas informaram o ano de nascimento.\nNenhuma delas atingiu a maioridade.')
 #Usando pass:
