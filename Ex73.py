@@ -1,0 +1,11 @@
+l = '=' * 42
+times = ('Corinthians', 'Palmeiras', 'Santos', 'Grêmio', 'Cruzeiro', 'Flamengo', 'Vasco da Gama', 'Chapecoense', 'Atlético-MG', 'Botafogo', 'Athletico-PR', 'Bahia', 'São Paulo', 'Fluminense', 'Sport Recife', 'EC Vitória', 'Coritiba', 'Avaí', 'Ponte Preta', 'Atlético-GO')
+print(f'{l}\n{"Times do Brasileirão 2018":^42}\n{l}')
+print(times)
+print(f'{l}\n{"Os 5 primeiros colocados":^42}\n{l}')
+print(times[0:5])
+print(f'{l}{"Os 4 últimos colocados":^42}\n{l}')
+print(times[-4:])
+print(f'{l}\n{"Times em ordem alfabética":^42}\n{l}')
+print(sorted(times))
+print(f'{l}\nO Chapecoense está na {times.index("Chapecoense") + 1}ª posição')
